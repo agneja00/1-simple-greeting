@@ -1,13 +1,13 @@
 import "./Header.css"
 
-const Header = (props) => {
+const Header = () => {
    
     return (
-        <header className="header"> {props.children}
+        <nav className="header"> 
             <a href="#">React</a>
             <a href="#">React</a>
             <a href="#">React</a>
-        </header>
+        </nav>
     );
 };
 

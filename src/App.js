@@ -1,8 +1,8 @@
 import './App.css';
-import Container from './Components/Container';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Page from './Components/Page';
+import Container from './components/Container/Container.jsx';
+import Header from './components/Header/Header.jsx';
+import Footer from './components/Footer/Footer.jsx';
+import Page from './components/Page/Page.jsx';
 
 function App() {
   return (
